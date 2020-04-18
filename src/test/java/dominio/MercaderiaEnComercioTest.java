@@ -87,4 +87,9 @@ public class MercaderiaEnComercioTest {
         Comercio comercio = ComercioBuilder.unComercio().build();
         assertThrows(ProductoInexistenteEnComercioException.class, () -> comercio.decrementarStock("Fideos", "Marolio", 10));
     }
+
+    @Test
+    public void testPruebaCi() {
+        assertTrue(true);
+    }
 }
